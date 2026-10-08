@@ -1,0 +1,460 @@
+{
+  "programs": [
+    {
+      "module_id": "CARDDEMO",
+      "program_id": "",
+      "source": "CARDDEMO (source not found)",
+      "warnings": [],
+      "service": "src/main/java/com/client/core/service/CarddemoService.java",
+      "program_translated": false,
+      "paragraphs": 0,
+      "paragraphs_translated": 0,
+      "rules": 0,
+      "rules_translated": 0,
+      "untranslated": [
+        "the program source was not found in the repository",
+        "no PROCEDURE DIVISION was found"
+      ],
+      "untranslated_rules": [],
+      "sql_tables": [],
+      "screens": [],
+      "unplanned": false
+    },
+    {
+      "module_id": "CBACT01C",
+      "program_id": "",
+      "source": "CBACT01C (source not found)",
+      "warnings": [],
+      "service": "src/main/java/com/client/core_financial_processing/service/Cbact01cService.java",
+      "program_translated": false,
+      "paragraphs": 0,
+      "paragraphs_translated": 0,
+      "rules": 8,
+      "rules_translated": 8,
+      "untranslated": [
+        "the program source was not found in the repository",
+        "no PROCEDURE DIVISION was found"
+      ],
+      "untranslated_rules": [],
+      "sql_tables": [],
+      "screens": [],
+      "unplanned": false
+    },
+    {
+      "module_id": "CBACT02C",
+      "program_id": "",
+      "source": "CBACT02C (source not found)",
+      "warnings": [],
+      "service": "src/main/java/com/client/core_financial_processing/service/Cbact02cService.java",
+      "program_translated": false,
+      "paragraphs": 0,
+      "paragraphs_translated": 0,
+      "rules": 7,
+      "rules_translated": 7,
+      "untranslated": [
+        "the program source was not found in the repository",
+        "no PROCEDURE DIVISION was found"
+      ],
+      "untranslated_rules": [],
+      "sql_tables": [],
+      "screens": [],
+      "unplanned": false
+    },
+    {
+      "module_id": "CBACT03C",
+      "program_id": "",
+      "source": "CBACT03C (source not found)",
+      "warnings": [],
+      "service": "src/main/java/com/client/core_financial_processing/service/Cbact03cService.java",
+      "program_translated": false,
+      "paragraphs": 0,
+      "paragraphs_translated": 0,
+      "rules": 7,
+      "rules_translated": 7,
+      "untranslated": [
+        "the program source was not found in the repository",
+        "no PROCEDURE DIVISION was found"
+      ],
+      "untranslated_rules": [],
+      "sql_tables": [],
+      "screens": [],
+      "unplanned": false
+    },
+    {
+      "module_id": "CBACT04C",
+      "program_id": "",
+      "source": "CBACT04C (source not found)",
+      "warnings": [],
+      "service": "src/main/java/com/client/core_financial_processing/service/Cbact04cService.java",
+      "program_translated": false,
+      "paragraphs": 0,
+      "paragraphs_translated": 0,
+      "rules": 8,
+      "rules_translated": 8,
+      "untranslated": [
+        "the program source was not found in the repository",
+        "no PROCEDURE DIVISION was found"
+      ],
+      "untranslated_rules": [],
+      "sql_tables": [],
+      "screens": [],
+      "unplanned": false
+    },
+    {
+      "module_id": "CBCUS01C",
+      "program_id": "",
+      "source": "CBCUS01C (source not found)",
+      "warnings": [],
+      "service": "src/main/java/com/client/core_financial_processing/service/Cbcus01cService.java",
+      "program_translated": false,
+      "paragraphs": 0,
+      "paragraphs_translated": 0,
+      "rules": 7,
+      "rules_translated": 7,
+      "untranslated": [
+        "the program source was not found in the repository",
+        "no PROCEDURE DIVISION was found"
+      ],
+      "untranslated_rules": [],
+      "sql_tables": [],
+      "screens": [],
+      "unplanned": false
+    },
+    {
+      "module_id": "CBSTM03A",
+      "program_id": "CBSTM03A",
+      "source": "app/cbl/CBSTM03A.CBL",
+      "warnings": [
+        "copybook CVACT03Y was not found in the repository",
+        "copybook CVACT01Y was not found in the repository"
+      ],
+      "service": "src/main/java/com/client/core_financial_processing/service/Cbstm03aService.java",
+      "program_translated": false,
+      "paragraphs": 26,
+      "paragraphs_translated": 3,
+      "rules": 8,
+      "rules_translated": 8,
+      "untranslated": [
+        "MAIN-ENTRY: SET statements other than SET condition-name TO TRUE are not translated",
+        "0000-START: ALTER statements are not translated",
+        "1000-MAINLINE: CLOSE statements are not translated",
+        "1000-XREFFILE-GET-NEXT: CARD-XREF-RECORD is not declared in the program or its copybooks",
+        "2000-CUSTFILE-GET: XREF-CUST-ID is not declared in the program or its copybooks",
+        "3000-ACCTFILE-GET: XREF-ACCT-ID is not declared in the program or its copybooks",
+        "4000-TRNXFILE-GET: subscripted or reference-modified WS-CARD-NUM(...) is not translated",
+        "5000-CREATE-STATEMENT: INITIALIZE STATEMENT-LINES: item ST-CURR-BAL is not translated",
+        "5100-WRITE-HTML-HEADER: WRITE statements are not translated",
+        "5200-WRITE-HTML-NMADBS: STRING statements are not translated",
+        "6000-WRITE-TRANS: ST-TRANAMT has an edited, scaled or floating-point picture",
+        "8100-FILE-OPEN: GO TO changes control flow in ways that are not translated",
+        "8100-TRNXFILE-OPEN: abbreviated combined conditions (for example A = 1 OR 2) are not translated",
+        "8200-XREFFILE-OPEN: abbreviated combined conditions (for example A = 1 OR 2) are not translated",
+        "8300-CUSTFILE-OPEN: abbreviated combined conditions (for example A = 1 OR 2) are not translated",
+        "8400-ACCTFILE-OPEN: abbreviated combined conditions (for example A = 1 OR 2) are not translated",
+        "8500-READTRNX-READ: subscripted or reference-modified WS-TRCT(...) is not translated",
+        "8599-EXIT: subscripted or reference-modified WS-TRCT(...) is not translated",
+        "9100-TRNXFILE-CLOSE: abbreviated combined conditions (for example A = 1 OR 2) are not translated",
+        "9200-XREFFILE-CLOSE: abbreviated combined conditions (for example A = 1 OR 2) are not translated",
+        "9300-CUSTFILE-CLOSE: abbreviated combined conditions (for example A = 1 OR 2) are not translated",
+        "9400-ACCTFILE-CLOSE: abbreviated combined conditions (for example A = 1 OR 2) are not translated",
+        "9999-ABEND-PROGRAM: called program CEE3ABD is not in the repository"
+      ],
+      "untranslated_rules": [],
+      "sql_tables": [],
+      "screens": [],
+      "unplanned": false
+    },
+    {
+      "module_id": "CBSTM03B",
+      "program_id": "CBSTM03B",
+      "source": "app/cbl/CBSTM03B.CBL",
+      "warnings": [],
+      "service": "src/main/java/com/client/core_financial_processing/service/Cbstm03bService.java",
+      "program_translated": false,
+      "paragraphs": 14,
+      "paragraphs_translated": 5,
+      "rules": 3,
+      "rules_translated": 1,
+      "untranslated": [
+        "0000-START: PERFORM ... THRU is not translated",
+        "1000-TRNXFILE-PROC: OPEN statements are not translated",
+        "1900-EXIT: MOVE from group item TRNXFILE-STATUS needs the byte layout and is not translated",
+        "2000-XREFFILE-PROC: OPEN statements are not translated",
+        "2900-EXIT: MOVE from group item XREFFILE-STATUS needs the byte layout and is not translated",
+        "3000-CUSTFILE-PROC: OPEN statements are not translated",
+        "3900-EXIT: MOVE from group item CUSTFILE-STATUS needs the byte layout and is not translated",
+        "4000-ACCTFILE-PROC: OPEN statements are not translated",
+        "4900-EXIT: MOVE from group item ACCTFILE-STATUS needs the byte layout and is not translated"
+      ],
+      "untranslated_rules": [
+        {
+          "rule": "BR-CBSTM03B-0163",
+          "reason": "no source lines or snippet were cited"
+        },
+        {
+          "rule": "BR-CBSTM03B-0164",
+          "reason": "no source lines or snippet were cited"
+        }
+      ],
+      "sql_tables": [],
+      "screens": [],
+      "unplanned": false
+    },
+    {
+      "module_id": "CBTRN02C",
+      "program_id": "",
+      "source": "CBTRN02C (source not found)",
+      "warnings": [],
+      "service": "src/main/java/com/client/core_financial_processing/service/Cbtrn02cService.java",
+      "program_translated": false,
+      "paragraphs": 0,
+      "paragraphs_translated": 0,
+      "rules": 8,
+      "rules_translated": 8,
+      "untranslated": [
+        "the program source was not found in the repository",
+        "no PROCEDURE DIVISION was found"
+      ],
+      "untranslated_rules": [],
+      "sql_tables": [],
+      "screens": [],
+      "unplanned": false
+    },
+    {
+      "module_id": "CBTRN03C",
+      "program_id": "",
+      "source": "CBTRN03C (source not found)",
+      "warnings": [],
+      "service": "src/main/java/com/client/core_financial_processing/service/Cbtrn03cService.java",
+      "program_translated": false,
+      "paragraphs": 0,
+      "paragraphs_translated": 0,
+      "rules": 8,
+      "rules_translated": 8,
+      "untranslated": [
+        "the program source was not found in the repository",
+        "no PROCEDURE DIVISION was found"
+      ],
+      "untranslated_rules": [],
+      "sql_tables": [],
+      "screens": [],
+      "unplanned": false
+    },
+    {
+      "module_id": "COAC",
+      "program_id": "",
+      "source": "COAC (source not found)",
+      "warnings": [],
+      "service": "src/main/java/com/client/core/service/CoacService.java",
+      "program_translated": false,
+      "paragraphs": 0,
+      "paragraphs_translated": 0,
+      "rules": 0,
+      "rules_translated": 0,
+      "untranslated": [
+        "the program source was not found in the repository",
+        "no PROCEDURE DIVISION was found"
+      ],
+      "untranslated_rules": [],
+      "sql_tables": [],
+      "screens": [],
+      "unplanned": false
+    },
+    {
+      "module_id": "COBSWAIT",
+      "program_id": "COBSWAIT",
+      "source": "app/cbl/COBSWAIT.cbl",
+      "warnings": [],
+      "service": "src/main/java/com/client/core_financial_processing/service/CobswaitService.java",
+      "program_translated": false,
+      "paragraphs": 1,
+      "paragraphs_translated": 0,
+      "rules": 3,
+      "rules_translated": 2,
+      "untranslated": [
+        "MAIN-ENTRY: ACCEPT statements are not translated"
+      ],
+      "untranslated_rules": [
+        {
+          "rule": "BR-COBSWAIT-0067",
+          "reason": "no source lines or snippet were cited"
+        }
+      ],
+      "sql_tables": [],
+      "screens": [],
+      "unplanned": false
+    },
+    {
+      "module_id": "COCR",
+      "program_id": "",
+      "source": "COCR (source not found)",
+      "warnings": [],
+      "service": "src/main/java/com/client/core/service/CocrService.java",
+      "program_translated": false,
+      "paragraphs": 0,
+      "paragraphs_translated": 0,
+      "rules": 0,
+      "rules_translated": 0,
+      "untranslated": [
+        "the program source was not found in the repository",
+        "no PROCEDURE DIVISION was found"
+      ],
+      "untranslated_rules": [],
+      "sql_tables": [],
+      "screens": [],
+      "unplanned": false
+    },
+    {
+      "module_id": "CODA",
+      "program_id": "",
+      "source": "CODA (source not found)",
+      "warnings": [],
+      "service": "src/main/java/com/client/core/service/CodaService.java",
+      "program_translated": false,
+      "paragraphs": 0,
+      "paragraphs_translated": 0,
+      "rules": 0,
+      "rules_translated": 0,
+      "untranslated": [
+        "the program source was not found in the repository",
+        "no PROCEDURE DIVISION was found"
+      ],
+      "untranslated_rules": [],
+      "sql_tables": [],
+      "screens": [],
+      "unplanned": false
+    },
+    {
+      "module_id": "COPA",
+      "program_id": "",
+      "source": "COPA (source not found)",
+      "warnings": [],
+      "service": "src/main/java/com/client/core/service/CopaService.java",
+      "program_translated": false,
+      "paragraphs": 0,
+      "paragraphs_translated": 0,
+      "rules": 0,
+      "rules_translated": 0,
+      "untranslated": [
+        "the program source was not found in the repository",
+        "no PROCEDURE DIVISION was found"
+      ],
+      "untranslated_rules": [],
+      "sql_tables": [],
+      "screens": [],
+      "unplanned": false
+    },
+    {
+      "module_id": "COTR",
+      "program_id": "",
+      "source": "COTR (source not found)",
+      "warnings": [],
+      "service": "src/main/java/com/client/core/service/CotrService.java",
+      "program_translated": false,
+      "paragraphs": 0,
+      "paragraphs_translated": 0,
+      "rules": 0,
+      "rules_translated": 0,
+      "untranslated": [
+        "the program source was not found in the repository",
+        "no PROCEDURE DIVISION was found"
+      ],
+      "untranslated_rules": [],
+      "sql_tables": [],
+      "screens": [],
+      "unplanned": false
+    },
+    {
+      "module_id": "CRDDEMO2",
+      "program_id": "",
+      "source": "CRDDEMO2 (source not found)",
+      "warnings": [],
+      "service": "src/main/java/com/client/core/service/Crddemo2Service.java",
+      "program_translated": false,
+      "paragraphs": 0,
+      "paragraphs_translated": 0,
+      "rules": 0,
+      "rules_translated": 0,
+      "untranslated": [
+        "the program source was not found in the repository",
+        "no PROCEDURE DIVISION was found"
+      ],
+      "untranslated_rules": [],
+      "sql_tables": [],
+      "screens": [],
+      "unplanned": false
+    },
+    {
+      "module_id": "CRDDEMOD",
+      "program_id": "",
+      "source": "CRDDEMOD (source not found)",
+      "warnings": [],
+      "service": "src/main/java/com/client/core/service/CrddemodService.java",
+      "program_translated": false,
+      "paragraphs": 0,
+      "paragraphs_translated": 0,
+      "rules": 0,
+      "rules_translated": 0,
+      "untranslated": [
+        "the program source was not found in the repository",
+        "no PROCEDURE DIVISION was found"
+      ],
+      "untranslated_rules": [],
+      "sql_tables": [],
+      "screens": [],
+      "unplanned": false
+    },
+    {
+      "module_id": "CRDDEMOM",
+      "program_id": "",
+      "source": "CRDDEMOM (source not found)",
+      "warnings": [],
+      "service": "src/main/java/com/client/core/service/CrddemomService.java",
+      "program_translated": false,
+      "paragraphs": 0,
+      "paragraphs_translated": 0,
+      "rules": 0,
+      "rules_translated": 0,
+      "untranslated": [
+        "the program source was not found in the repository",
+        "no PROCEDURE DIVISION was found"
+      ],
+      "untranslated_rules": [],
+      "sql_tables": [],
+      "screens": [],
+      "unplanned": false
+    },
+    {
+      "module_id": "CSUTLDTC",
+      "program_id": "CSUTLDTC",
+      "source": "app/cbl/CSUTLDTC.cbl",
+      "warnings": [],
+      "service": "src/main/java/com/client/core_financial_processing/service/CsutldtcService.java",
+      "program_translated": false,
+      "paragraphs": 3,
+      "paragraphs_translated": 1,
+      "rules": 3,
+      "rules_translated": 2,
+      "untranslated": [
+        "MAIN-ENTRY: INITIALIZE WS-MESSAGE: item WS-SEVERITY is not translated",
+        "A000-MAIN: qualified, subscripted or reference-modified LENGTH is not translated"
+      ],
+      "untranslated_rules": [
+        {
+          "rule": "BR-CSUTLDTC-0283",
+          "reason": "no source lines or snippet were cited"
+        }
+      ],
+      "sql_tables": [],
+      "screens": [],
+      "unplanned": false
+    }
+  ],
+  "unplanned_modules": [],
+  "totals": {
+    "programs": 20,
+    "programs_translated": 0,
+    "rules": 70,
+    "rules_translated": 66
+  }
+}
