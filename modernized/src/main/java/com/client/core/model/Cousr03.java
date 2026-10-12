@@ -1,0 +1,36 @@
+package com.client.core.model;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import java.io.Serializable;
+import java.math.BigDecimal;
+
+/**
+ * Modernized JPA Entity generated from Copybook: COUSR03
+ * @citation app/bms/COUSR03.bms
+ * Generated entity schema with primary key and record payload.
+ */
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+@Entity
+@Table(name = "cousr03")
+public class Cousr03 implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
+    @Id
+    @Column(name = "id", nullable = false)
+    @JsonProperty("ID")
+    private String id;
+
+    @Column(name = "record_data", length = 4000)
+    @JsonProperty("RECORD_DATA")
+    private String recordData;
+
+}
