@@ -1,0 +1,101 @@
+package com.client.core_financial_processing.controller;
+
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import com.client.core_financial_processing.service.Cbact02cService;
+import com.client.core_financial_processing.service.Cbact02cService.ModernizedOperationResult;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Map;
+
+/**
+ * Modernized Spring Boot REST Controller: Cbact02cController
+ *
+ * RESTful HTTP boundary for modernized COBOL module: CBACT02C
+ * Generation Strategy: GenAI LLM-Assisted Transformation
+ */
+@Slf4j
+@RestController
+@RequestMapping("/api/v1/core_financial_processing/cbact02c")
+@RequiredArgsConstructor
+@Tag(name = "Cbact02cController", description = "REST API Controller for CBACT02C")
+public class Cbact02cController {
+
+    private final Cbact02cService service;
+
+    @GetMapping("/health")
+    @Operation(summary = "Health check and module status", description = "Verifies Cbact02cService status and legacy metadata")
+    public ResponseEntity<Map<String, Object>> getHealth() {
+        return ResponseEntity.ok(Map.of(
+            "moduleId", service.getModuleId(),
+            "sourcePath", service.getSourcePath(),
+            "status", "ACTIVE",
+            "framework", "Spring Boot 3.3.0"
+        ));
+    }
+
+    @PostMapping("/cbact02c0009")
+    @Operation(summary = "Business logic rule BR-CBACT02C-0009", description = "Endpoint invoking Cbact02cService#executeCbact02c0009 (Rule BR-CBACT02C-0009)")
+    public ResponseEntity<ModernizedOperationResult> handleCbact02c0009(@RequestBody(required = false) Map<String, Object> payload) {
+        log.info("REST POST /api/v1/core_financial_processing/cbact02c/cbact02c0009 invoked");
+        ModernizedOperationResult result = service.executeCbact02c0009(payload != null ? payload : Map.of());
+        return ResponseEntity.ok(result);
+    }
+
+    @PostMapping("/cbact02c0010")
+    @Operation(summary = "Business logic rule BR-CBACT02C-0010", description = "Endpoint invoking Cbact02cService#executeCbact02c0010 (Rule BR-CBACT02C-0010)")
+    public ResponseEntity<ModernizedOperationResult> handleCbact02c0010(@RequestBody(required = false) Map<String, Object> payload) {
+        log.info("REST POST /api/v1/core_financial_processing/cbact02c/cbact02c0010 invoked");
+        ModernizedOperationResult result = service.executeCbact02c0010(payload != null ? payload : Map.of());
+        return ResponseEntity.ok(result);
+    }
+
+    @PostMapping("/cbact02c0011")
+    @Operation(summary = "Business logic rule BR-CBACT02C-0011", description = "Endpoint invoking Cbact02cService#executeCbact02c0011 (Rule BR-CBACT02C-0011)")
+    public ResponseEntity<ModernizedOperationResult> handleCbact02c0011(@RequestBody(required = false) Map<String, Object> payload) {
+        log.info("REST POST /api/v1/core_financial_processing/cbact02c/cbact02c0011 invoked");
+        ModernizedOperationResult result = service.executeCbact02c0011(payload != null ? payload : Map.of());
+        return ResponseEntity.ok(result);
+    }
+
+    @PostMapping("/cbact02c0012")
+    @Operation(summary = "Business logic rule BR-CBACT02C-0012", description = "Endpoint invoking Cbact02cService#executeCbact02c0012 (Rule BR-CBACT02C-0012)")
+    public ResponseEntity<ModernizedOperationResult> handleCbact02c0012(@RequestBody(required = false) Map<String, Object> payload) {
+        log.info("REST POST /api/v1/core_financial_processing/cbact02c/cbact02c0012 invoked");
+        ModernizedOperationResult result = service.executeCbact02c0012(payload != null ? payload : Map.of());
+        return ResponseEntity.ok(result);
+    }
+
+    @PostMapping("/cbact02c0013")
+    @Operation(summary = "Business logic rule BR-CBACT02C-0013", description = "Endpoint invoking Cbact02cService#executeCbact02c0013 (Rule BR-CBACT02C-0013)")
+    public ResponseEntity<ModernizedOperationResult> handleCbact02c0013(@RequestBody(required = false) Map<String, Object> payload) {
+        log.info("REST POST /api/v1/core_financial_processing/cbact02c/cbact02c0013 invoked");
+        ModernizedOperationResult result = service.executeCbact02c0013(payload != null ? payload : Map.of());
+        return ResponseEntity.ok(result);
+    }
+
+    @PostMapping("/cbact02c0014")
+    @Operation(summary = "Business logic rule BR-CBACT02C-0014", description = "Endpoint invoking Cbact02cService#executeCbact02c0014 (Rule BR-CBACT02C-0014)")
+    public ResponseEntity<ModernizedOperationResult> handleCbact02c0014(@RequestBody(required = false) Map<String, Object> payload) {
+        log.info("REST POST /api/v1/core_financial_processing/cbact02c/cbact02c0014 invoked");
+        ModernizedOperationResult result = service.executeCbact02c0014(payload != null ? payload : Map.of());
+        return ResponseEntity.ok(result);
+    }
+
+    @PostMapping("/cbact02c0015")
+    @Operation(summary = "Business logic rule BR-CBACT02C-0015", description = "Endpoint invoking Cbact02cService#executeCbact02c0015 (Rule BR-CBACT02C-0015)")
+    public ResponseEntity<ModernizedOperationResult> handleCbact02c0015(@RequestBody(required = false) Map<String, Object> payload) {
+        log.info("REST POST /api/v1/core_financial_processing/cbact02c/cbact02c0015 invoked");
+        ModernizedOperationResult result = service.executeCbact02c0015(payload != null ? payload : Map.of());
+        return ResponseEntity.ok(result);
+    }
+}
